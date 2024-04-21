@@ -1,0 +1,515 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .header{
+    /* position: fixed; */
+    top: 0;
+    width:100%;
+    height: 60px;
+    /* background-color: rgb(255, 228, 207); */
+    background-color: rgb(240, 235, 227 );
+ }
+ .home-logo{
+    float: left;
+    font-family: "EB Garamond", serif;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-style: italic;
+ }
+ .list-1{
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+    
+ }
+ .list-1 li{
+    display: inline-block;
+    margin-left: 20px; 
+     
+ }
+ .list-1 li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: 3s;
+     
+}
+ .list-1-i:hover{
+    /* border: 2px solid black;
+    padding: 5px;
+    border-radius: 8px; */
+    border: 1px solid black;
+    animation: borderAnimation 2s infinite;
+    padding: 5px;
+
+ }
+ @keyframes borderAnimation {
+   0% {
+       border-width: 2px;
+   }
+   50% {
+       border-width: 5px;
+   }
+   100% {
+       border-width: 2px;
+   }
+}
+ .home{
+    width:100%;
+    height: 100vh;
+    /* background-color: rgb(255, 228, 207); */
+    background-color: rgb(240, 235, 227 );
+ }
+ .home-content{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+ .home-cont-1{
+    margin-top: 220px;
+    width:350px;
+    margin-left: 120px;
+ }
+ .home-cont-1 h2{
+    font-family: "EB Garamond", serif;
+    font-size: 35px;
+ }
+ .home-cont-1 p{
+    margin-top: 10px;
+    font-family: "EB Garamond", serif;
+    font-size: 20px;
+ }
+ .home-btn{
+    margin-top: 15px;
+    border-radius: 20px;
+    height: 30px;
+    width: 150px;
+    color: white;
+    background-color: #D37676;
+    border: 5px solid #D37676 ;
+    cursor: pointer;
+ }
+ .home-cont-2{
+    margin-top: 50px;
+    margin-right: 120px;
+ }
+ .home-img{
+    width:400px;
+    height: 480px;
+    border-radius: 10px;
+ }
+ .menu{
+    display: none;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width:300px;
+    height: 100px;
+    padding-top: 20px;
+ }
+ .list-1-2:hover .menu{
+    display: block;
+ }
+ /* /////////////////////////////////////////////////////////////////////////////////////////////// */
+ .items{
+    margin-top: 50px;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+ }
+ .item-p{
+    display: inline;
+    margin-left: 5px;
+    font-family:  "EB Garamond", serif;
+ }
+ .menu{
+    position: absolute;
+ }
+ 
+ /* /////////////////////////////////////////////////////////////////////////////////////////////// */
+  .header-1{
+    margin-top: 100px;
+    font-family: "Purple Purse", serif;
+    font-size: 30px;
+    text-align: center;
+  }
+  .hr-1{
+    width: 150px;
+    height: 3px;
+    background-color: #D37676;
+     margin: auto;
+     margin-top: 10px;
+  }
+  .container-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    background-color: rgba(240, 235, 227 , .6);
+  }
+  .cont-1{
+    width: 250px;
+    height: 450px;
+    background-color: white;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .sec-1-h , .sec-1-p , .sec-1-btn{
+    margin-top: 20px;
+    font-family: "EB Garamond", serif;
+  }
+  .sec-1-btn{
+    border-radius: 20px;
+    height: 30px;
+    width: 150px;
+    color: white;
+    background-color: #D37676;
+    border: 5px solid #D37676 ;
+    cursor: pointer;
+  }
+  .sec-1-arr{
+     opacity: 0;
+  }
+  .cont-1:hover .sec-1-arr{
+    opacity: 1;
+    cursor: pointer;
+  }
+  /* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+  .header-2{
+    margin-top: 100px;
+    font-family: "Purple Purse", serif;
+    font-size: 30px;
+    text-align: center;
+  }
+  .hr-2{
+    width: 120px;
+    height: 3px;
+    background-color: #D37676;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .container-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 80px;
+  }
+  .cont-2-item-i {
+    width: 200px;
+    height: 320px;
+    text-align: center;
+}
+.cont-2-3{
+    box-shadow: 1px 1px 15px 5px lightgray;
+}
+ .cont-2-h2 , .cont-2-p{
+    margin-top: 20px;
+    font-family: "EB Garamond", serif;
+  }
+  .cont-2-h2{
+    font-size: 18px;
+  }
+  .cont-2-p{
+    font-weight: bold;
+  }
+  .cont-2-3{
+    box-shadow: (1px 1px 50px);
+  }
+  .left-arrow , .right-arrow{
+    margin-top: 150px;
+  }
+  .arrow-i{
+    font-size: 30px;
+  }
+  .cont-2-5{
+    text-align: center;
+  }
+  .cont-2-btn{
+    border-radius: 20px;
+    height: 30px;
+    width: 150px;
+    color: white;
+    background-color: #D37676;
+    border: 5px solid #D37676 ;
+    cursor: pointer;
+    margin-top: 100px;
+ }
+  /* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+  .container-3{
+    margin-left: 180px;
+    margin-top: 80px;
+    display:grid; 
+    grid-template-columns: 450px 250px 250px;
+    grid-gap:10px 25px;
+  }
+  .colm-i{
+    height: 280px;
+    padding: 15px;
+    background-color: rgb(240, 235, 227 );;
+  }
+  .colm-lines{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 40px;
+  }
+  .colm-lines-i{
+    width: 60px;
+    height: 2px;
+    background-color: #D37676;
+    margin: 8px;
+}
+.colm-i-icon{
+    font-size: 35px;
+    color:#D37676;
+}
+.colm-i-h2{
+    display: inline;
+    font-family: "EB Garamond", serif;
+}
+.colm-i-p{
+    margin-top: 40px;
+    font-family: "EB Garamond", serif;
+}
+.colm-2{
+    background-image: url(../images/furn4.jpg);
+    background-size: cover;
+    transition: 1s;
+}
+.colm-3{
+    background-image: url(../images/furn8.jpg);
+    background-size: cover;
+    transition: 1s;
+}
+.colm-2:hover{
+    transform: scale(1.1);
+}
+.colm-3:hover{
+    transform: scale(1.1);
+}
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.container-4{
+    width: 80%;
+    height: 700px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #F9F5EB;
+}
+.cont-4-item-1{
+    width: 50%; 
+    margin: auto; 
+      
+      
+}
+.cont-4-btn{
+     margin-top: 50px;
+    border-radius: 20px;
+    height: 40px;
+    width: 180px;
+    color: white;
+    background-color: #D37676;
+    border: 5px solid #D37676 ;
+    cursor: pointer;
+    font-family: "EB Garamond", serif;
+}
+.cont-4-spn{
+    margin-left: 80px;
+    font-family: "EB Garamond", serif; 
+    color: lightgray;  
+}
+.header-4{
+    margin-top: 100px;
+    font-family: "Purple Purse", serif;
+    font-size: 23px;
+    text-align: center;
+}
+.hr-4{
+   margin: auto;
+   margin-top: 30px;
+    width: 40px;
+    height: 2px;
+    background-color: #D37676;
+}
+.cont-4-item-2{
+    margin-top: 100px;
+}
+.cont-4-item-2{
+    display: flex;
+     justify-content: space-evenly;
+}
+.cont-4-p{
+    width:300px;
+    text-align: start;
+    font-family: "EB Garamond", serif;
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////// */
+body{
+   perspective: 700px;
+}
+ .header-5{
+   text-align: center;
+   margin-top: 150px;
+   font-family: "Purple Purse", serif;
+    font-size: 30px;
+ }
+ .line-5{
+   width: 60px;
+   height: 2px;
+   background-color: #D37676;
+   margin: auto;
+   margin-top: 10px;
+ }
+ .container-5{
+   margin-top: 100px;
+   width: 100%;
+   height: 250px;
+ }
+  .cont-5{
+   margin-top: 20px;
+   width: 100%;
+   height: 250px;
+   overflow: auto;
+   
+    
+  }
+  .sec-5{
+   width: 300px;
+   height: 250px;
+   position: relative;
+   float: left;
+   margin-left: 110px;
+   transform-style: preserve-3d;
+   transition: all 2s;
+  }
+  .item-5-i{
+   position: absolute;
+  }
+  .front-1{
+   z-index: 1;
+   backface-visibility: hidden;
+  }
+  .sec-5:hover{
+   transform:rotateY( 180deg);
+  }
+  .back-1{
+   transform: rotateY(180deg);
+  }
+  .sec-5-p ,.sec-5-btn{
+   margin-top: 50px;
+   text-align: center;
+   font-family: "EB Garamond", serif;
+  }
+  .sec-5-btn{
+   border-radius: 20px;
+   height: 30px;
+   width: 180px;
+   color: white;
+   background-color: #D37676;
+   border:2px solid #D37676; 
+   cursor: pointer;
+   margin-left: 50px;
+  }
+   /* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+ .container-6{
+   margin-top: 150px;
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   background-color:  #F9F5EB;
+   align-items: center;
+ }
+  
+ .cont-6-1 , .cont-6-2{
+   width: 480px;
+   height: 450px;
+ }
+  
+  .cont-6-h2{
+   margin-top: 80px;
+   margin-left: 30px;
+   font-family: "Source Code Pro", monospace;
+   font-size: 40px;
+   color: #EDC6B1;
+  }
+  .cont-6-p{
+   margin-top: 40px;
+   padding:0 25px
+  }
+  .cont-6-btn{
+   margin-top: 40px;
+   height: 40px;
+   width: 180px;
+   color: white;
+   background-color: #EDC6B1;
+   border:2px solid #EDC6B1; 
+   cursor: pointer;
+   margin-left: 30px;
+   letter-spacing: 2px;
+  }
+    
+/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+ .container-7{
+   margin-top: 150px;
+   width:100%;
+   height: 250px;
+   background-color:#F9F5EB ;
+   padding-top: 80px;
+ }
+ .foot-cont{
+   width:400px;
+   height: 200px;
+   margin:auto;
+   text-align: center;
+   }
+.foot-h{
+  margin-top: 20px;
+  color:#3C3633;
+  font-family: "Purple Purse", serif;
+  font-size: 30px;
+  font-weight: 300;
+}
+.foot-icons{
+   padding-top: 10px;
+}
+.foot-icons i{
+  font-size: 25px;
+  background-color: white;
+  color: #3C3633;
+}
+.foot-p{
+  margin: 10px 0;
+  color: #3C3633;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* //////////////////////////////////////////////////////////////////////////// */
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
